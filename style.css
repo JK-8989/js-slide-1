@@ -44,17 +44,23 @@ blockquote {
   -webkit-transition: left .3s ease-in;
   transition: left .3s ease-in;
 }
+#prev,
+#next {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+}
 #prev.disabled, #next.disabled {display: none;}
 #prev {
-  background-image: url('arrow-left2.png'); margin-left: -480px;
+  background-image: url('images/arrow-left2.png'); margin-left: -480px;
 }
 #prev:hover {
-  background-image: url('arrow-left2.png'); 
+  background-image: url('images/arrow-left2.png'); 
 }
 #next {
   margin-left: 380px;
-  background-image: url('arrow-right2.png'); 
+  background-image: url('images/arrow-right2.png'); 
 }
 #next:hover {
-  background-image: url('arrow-right2.png'); 
-}
+  background-image: url('images/arrow-right2.png');
+ }
